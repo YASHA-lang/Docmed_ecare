@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospitals</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+            text-align: center; /* Center the content */
+            background-image: linear-gradient(to right, #ff416c, #ff4b2b);
+        }
+
+        a{ 
+            text-decoration: none;
+            color: inherit;
+        }
+
+        h1 {
+            margin-bottom: 50px; /* Space below the heading */
+            color: #f4f4f4;
+        }
+
+        .container {
+             /* Use flexbox for layout */
+            justify-content: center; /* Center items horizontally */
+            gap: 20px; /* Space between boxes */
+            flex-wrap: wrap; /* Allow wrapping to next line */
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
+            height: 50vh;
+            display: flex; /* Use flexbox for layout */
+            align-items: flex-start; 
+
+        }
+
+        .hospital-box {
+            background-color: white; /* Background color for boxes */
+            border: 1px solid #ddd; /* Border style */
+            border-radius: 8px; /* Rounded corners */
+            padding: 20px; /* Padding inside the box */
+            width: 250px; /* Fixed width for boxes */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow effect */
+            transition: transform 0.2s; /* Animation for hover effect */
+            min-height: 90px;
+            text-align: center;
+            line-height: 90px;
+            margin-bottom: 40px;
+            margin-top: 40px;
+        }
+
+        .hospital-box:hover {
+            transform: scale(1.05); /* Scale up on hover */
+        }
+
+        .hospital-type {
+            font-weight: bold; /* Bold text for hospital type */
+            margin-bottom: 10px; /* Space below the type */
+        }
+        
+        img{
+            float: left;
+            margin-right: 30px;
+        }
+
+        .content {
+            margin-right: 20px; /* Space between the content and the image */
+        }
+    </style>
+</head>
+<body>
+
+<h1>Hospitals</h1>
+
+
+<div class="container">
+    <img src="https://img.freepik.com/free-vector/hospital-bed-concept-illustration_114360-8209.jpg?t=st=1734239296~exp=1734242896~hmac=9359670d8d2c0765bb41a9ffefa056de3d74d81d0aa797157c033fa787a8660f&w=740" width="500" height="500">
+   
+    <div class="content">
+    <div class="hospital-box">
+        
+        <a href="private.html"><h2>Private Hospital</h2></a>
+        
+        
+    </div>
+    
+
+    <div class="hospital-box">
+        
+        <a href="govt1.html"><h2>Government Hospital</h2></a>
+        
+    </div>
+    </div>
+</div>
+
+</body>
+</html>
